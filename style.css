@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.red__bg {
+    background-color: red;
+}
+
+.green__bg {
+    background-color: green;
+}

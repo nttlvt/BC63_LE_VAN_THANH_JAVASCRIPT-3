@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css ">
+    <!-- MY STYLE CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3>Bài tập 1: tìm số nguyên dương n nhỏ nhất sao cho: 1 + 2 + ... + n > 10000</h3>
+            <button class="btn btn-primary my-3 " id="btnResult">Result</button>
+            <div class="alert alert-danger" id="showResult"></div>
+        </div>
+        <div>
+            <h3>Bài tập 2: Viết chương trình nhập vào 2 số x, n tính tổng: S(n) = x + x^2 + x^3 + … + x^n (Sử dụng vòng
+                lặp và hàm)</h3>
+            <input type="number" class="form-control" placeholder="Nhập số x" id="number1">
+            <input type="number" class="form-control mt-2" placeholder="Nhập số n" id="number2">
+            <button class="btn btn-primary my-4 " id="btnSum">SUM</button>
+            <div class="alert alert-primary" id="showSum"></div>
+        </div>
+        <div>
+            <h3>Bài tập 3: Nhập vào n. Tinh n giai thừa 1*2*....*n </h3>
+            <input type="number" class="form-control" placeholder="nhập n" id="inputN">
+            <button class="btn btn-primary my-4 " id="btnGiaiThua">Giai thua</button>
+            <div class="alert alert-primary" id="showGiaiThua"></div>
+        </div>
+        <div>
+            <h3>Bài tập 4: Hãy viết chương trình khi click vào button sẽ in ra 10 thẻ div. Nếu div nào vị trí chẵn thì
+                background màu đỏ và lẻ thì background màu xanh</h3>
+            <div id="button">
+                <button class="btn btn-primary" id="btnDiv">Button div</button>
+            </div>
+        </div>
+        <div class="mt-4 ">
+            <h3>Bài tập 5: Viết chương trình có một ô input, một button. Khi click vào button thì in ra các số nguyên tố
+                từ 1 tới giá trị của ô input</h3>
+            <div>
+                <h4>Nhập vào một số </h4>
+                <input type="number" id="soNhap">
+                <button class="btn btn-primary my-3" id="btnNguyenTo">Tìm số nguyên tố</button>
+                <div class="alert alert-primary" id="ketQua"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- MY JAVASCRIPT -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
